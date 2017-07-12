@@ -1,0 +1,325 @@
+title: Page
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  builder:
+    label: Content
+    type: builder
+    fieldsets:
+      headline:
+        label: Headline
+        entry: >
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          headlineimage:
+            label: Headline Image
+            type: image
+      copy:
+        label: Copy
+        fields:
+          copy:
+            label: Copy
+            type: textarea
+      fullimage:
+        label: Full Image
+        entry: >
+          <img src="{{_fileUrl}}{{image}}" height=120px/><br>
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          image:
+            label: Image
+            type: image
+      oneimage:
+        label: One Image
+        entry: >
+          <img src="{{_fileUrl}}{{image}}" height=120px/><br>
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          image:
+            label: Image
+            type: image
+      threeimages:
+        label: Three Images
+        entry: >
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          images:
+            label: Images
+            type: gallery
+      twovideos:
+        label: Two Videos
+        entry: >
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          video1:
+            label: First Video
+            type: select
+            options: videos
+          video2:
+            label: Second Video
+            type: select
+            options: videos
+      onevideo:
+        label: One Video
+        entry: >
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          video:
+            label: Video
+            type: select
+            options: videos
+      fourimages:
+        label: Four Images
+        entry: >
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          images:
+            label: Images
+            type: gallery
+      siximages:
+        label: Six Images
+        entry: >
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          images:
+            label: Images
+            type: gallery
+          videoitem:
+            label: Video
+            type: select
+            options: videos
+      multipleimages:
+        label: Multiple Images
+        entry: >
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          images:
+            label: Images
+            type: gallery
+      video:
+        label: Video
+        entry: >
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+          <a target="_blank" href="{{videourl}}">{{videourl}}</a>
+        fields:
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          image:
+            label: Preview Image
+            type: image
+          videoid:
+            label: Video ID
+            type: text
+      projectintroduction:
+        label: Project Introduction
+        entry: >
+          <img src="{{_fileUrl}}{{image}}" height=120px/><br>
+          <b>{{headline}}</b><br>
+          {{subline}}<br>
+          {{copy}}<br>
+          <b>Year:</b> {{year}}<br>
+          <b>Type:</b> {{type}}<br>
+          <b>Role:</b> {{role}}<br>
+          <a target="_blank" href="{{link}}">{{linklabel}}</a>
+        fields:
+          image:
+            label: Masthead Image
+            type: image
+          imagemobile:
+            Label: Mobile Image
+            type: image
+          headline:
+            label: Headline
+            type: text
+          subline:
+            label: Subline
+            type: text
+          copy:
+            label: Copy
+            type: textarea
+          linklabel:
+            label: Project Link Label
+            type: text
+          link:
+            label: Project Link
+            type: url
+          type:
+            label: Type
+            type: text
+          role:
+            label: Role
+            type: text
+          year:
+            label: Yeay
+            type: text
+      profileintroduction:
+        label: Profile Introduction
+        entry: >
+          <strong>Profile Introduction Copy: </strong>{{copy}} <br>
+          <strong>{{linklabel}}: </strong> ({{link}})
+        fields:
+          copy:
+            label: Profile Introduction Copy
+            type: textarea
+          linklabel:
+            label: Contact E-Mail Label
+            type: text
+          link:
+            label: E-Mail Adress
+            type: text
+      twoteaser:
+        label: Two Teaser
+        fields:
+          headline:
+            label: Teaser Headline
+            type: text
+          subline:
+            label: Teaser Subline
+            type: text
+          teaser:
+            label: Select Projects
+            type: checkboxes
+            options: pages
+      teaser:
+        label: Teaserlist
+        fields:
+          headline:
+            label: Teaserlist Headline
+            type: text
+          subline:
+            label: Teaserlist Subline
+            type: text
+          teaserlist:
+            label: Select Projects
+            type: checkboxes
+            options: pages
+          teaserlist2:
+            label: Teaser List
+            type: list
+      largeteaser:
+        label: Large Teaser
+        fields:
+          teaseritem:
+            label: Select Project
+            type: select
+            options: pages
+  teaserhl:
+    label: Teaser Headline
+    type: text
+  teasersl:
+    label: Teaser Subline
+    type: text
+  teaserimage:
+    label: Teaser Image
+    type: image
+  teaservideo:
+    label: Teaser Video
+    type: select
+    options: videos

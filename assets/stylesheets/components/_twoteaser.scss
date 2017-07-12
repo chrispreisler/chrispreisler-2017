@@ -1,0 +1,116 @@
+.twoteaser {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+
+  @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance);
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__hl {
+    margin-top: calcRem(20);
+    text-align: center;
+
+    @include mappy-bp(sm) {
+      margin-top: calcRem(30);
+    }
+  }
+
+  &__sl {
+    text-align: center;
+    margin-left: calcRem(22);
+
+    @include mappy-bp(sm) {
+      text-align: center;
+      margin-left: calcRem(35);
+    }
+  }
+
+  &__itemgroup {
+    margin-top: calcRem(40);
+    display: flex;
+    justify-content: space-between;
+
+    @include mappy-bp(sm) {
+      margin-top: calcRem(80);
+    }
+  }
+
+  &__item {
+    flex-basis: 45%;
+    min-width: 0;
+    transform: translateY(0);
+    transition: transform 0.25s ease-out;
+
+    &:first-child {
+      margin-right: 10%;
+    }
+
+    @include mappy-bp(md) {
+      &:hover {
+        transform: translateY(-2%);
+      }
+    }
+
+
+    &__hover {
+      position: relative;
+      overflow: hidden;
+      line-height: 0;
+    }
+
+    &__image {
+      @include mappy-bp(sm) {
+        transform: translate(0, 0);
+        transition: transform .4s cubic-bezier(.23,1,.32,1);
+      }
+
+      img {
+        opacity: 0;
+      }
+    }
+
+    &__hl {
+      text-align: center;
+      margin-top: calcRem(20);
+
+      @include mappy-bp(md) {
+        margin-top: calcRem(30);
+      }
+
+      @include mappy-bp(lg) {
+        margin-top: calcRem(40);
+      }
+    }
+
+    &__sl {
+      margin-top: calcRem(20);
+      text-align: center;
+      display: none;
+      margin-left: 0;
+
+      &:before {
+        display: none;
+      }
+
+      @include mappy-bp(sm) {
+        display: block;
+      }
+    }
+  }
+  @include mappy-bp(sm) {
+    // &__link:hover {
+    //   .twoteaser__item__hover {
+    //     &:before {
+    //       transform: translate(-12px, 12px);
+    //     }
+    //
+    //     img {
+    //       transform: translate(13px, -13px);
+    //     }
+    //   }
+    // }
+  }
+}

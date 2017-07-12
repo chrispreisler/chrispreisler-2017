@@ -1,0 +1,74 @@
+Title: Robotron SB-Lab
+
+----
+
+Builder: 
+
+- 
+  headline: Robotron Skateboards
+  subline: Design skateboards the fun way
+  headlineimage: robotron-robot-mini.jpg
+  _fieldset: headline
+- 
+  image: robotron-masthead.jpg
+  imagemobile: robotron-teaser.jpg
+  headline: Robotron
+  subline: The story
+  copy: "Skateboarding and design are closely connected since the beginning of the skateboard era. Both allows one to influence and reinterpret the surrounding world. Robotron Skateboards wants to give everyone the opportunity to express one's human pursuit of individuality on the skateboard. Robotron Skateboards presents the first digital skateboard designer: the Robotron SB-LAB."
+  linklabel: ""
+  link: ""
+  type: Digital Campaign
+  role: 'Ideation & Design'
+  year: "2015"
+  _fieldset: projectintroduction
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  image: robotron-skateboard-elements.jpg
+  _fieldset: oneimage
+- 
+  headline: >
+    The iconic robot and your skateboard
+    design is in the center of the whole
+    design process
+  subline: The Design process
+  copy: ""
+  images: |
+    - robotron-website-themes.jpg
+    - robotron-website-personalizeer.jpg
+    - robotron-website-designer.jpg
+    - robotron-website-camera.jpg
+    - robotron-website-production.jpg
+    - robotron-website-game.jpg
+  _fieldset: siximages
+  videoitem: ""
+- 
+  headline: >
+    Endless great design possibilities
+    branded by Robotron Skateboards
+  subline: The Look
+  copy: ""
+  image: robotron-designs.jpg
+  _fieldset: fullimage
+- 
+  headline: Like this?
+  subline: You will also like this 👍
+  teaser: jack-daniel-s, maoam
+  _fieldset: twoteaser
+
+----
+
+Teaserhl: Design skateboards the fun way
+
+----
+
+Teaserimage: robotron-teaser.jpg
+
+----
+
+Teasersl: Robotron Skateboards
+
+----
+
+Teaservideo: 

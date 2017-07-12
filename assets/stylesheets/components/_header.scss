@@ -1,0 +1,268 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  height: calcRem(125);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  @include mappy-bp(lg) {
+    //height: calcRem(125);
+    flex-direction: row;
+    padding: 0 $contentPadding;
+    padding: 0 4vw;
+    //padding: 0;
+    align-items: center;
+    justify-content: space-between;
+
+    //align-items: center;
+  }
+
+  @include mappy-bp(xl) {
+    //max-width: calcMaxWidth(1600);
+    padding: 0 4vw;
+  }
+}
+
+.logo {
+  //z-index: 15;
+  padding-left: $contentPadding;
+  z-index: 3;
+  //transform: scale(0.9);
+
+  @include mappy-bp(lg) {
+    padding: 0;
+    flex-basis: 31.5%;
+  }
+
+  svg  {
+    color: $red;
+  }
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  //display: none;
+  height: 100vh;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  //background: blue;
+
+  @include mappy-bp(lg) {
+    display: block;
+    position: relative;
+    flex-basis: 68.5%;
+    background: none;
+    height: auto;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 30vh;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @include mappy-bp(lg) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0;
+    }
+
+    &__item {
+      margin: calcRem(40) auto 0;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      @include mappy-bp(lg) {
+        padding: 0;
+        margin: 0;
+        display: block;
+        opacity: 1;
+      }
+
+      &--logo {
+        display: block;
+      }
+
+      > span {
+        display: none;
+
+        @include mappy-bp(lg) {
+          line-height: 0;
+          height: 0;
+          font-size: calcRem(20);
+          display: inline;
+        }
+      }
+    }
+  }
+
+  &__link {
+    font-size: calcRem(30);
+    font-weight: 200;
+    line-height: 1;
+    position: relative;
+    color: $black;
+    display: inline-block;
+    opacity: 0;
+    transform: translate(0%, 25%);
+
+    &:before {
+      width: 0;
+      display: block;
+      height: calcRem(5);
+      opacity: .2;
+      position: absolute;
+      top: calcRem(14);
+      right: 0;
+      background-color: $red;
+      content: '';
+      transition: width .8s cubic-bezier(.23,1,.32,1);
+    }
+
+    &--active {
+      font-weight: 500;
+
+      &:before {
+        width: 100%;
+        top: calcRem(25);
+      }
+    }
+
+    @include mappy-bp(lg) {
+      font-size: calcRem(17);
+      color: $black;
+      //font-weight: 500;
+      transform: none;
+      display: inline;
+      opacity: 1;
+      font-weight: $font-weight-regular;
+
+      &:hover {
+        &:before {
+          width: 100%;
+          left: 0;
+        }
+      }
+
+      &--active {
+        font-weight: 600;
+
+        &:before {
+          width: 100%;
+          top: calcRem(14);
+        }
+      }
+    }
+  }
+
+  &__circle-bg {
+    position: absolute;
+    background: $white;
+    border-radius: 50%;
+    top: 62px;
+    right: calc(8vw + 10px);
+    transform: translate(50%, -50%);
+    //transform: translate(42%, 0);
+    width: 0;
+    height: 0;
+    z-index: 1;
+    //display: none;
+    visibility: hidden;
+  }
+
+  &__btn {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    background: none;
+    color: $black;
+    z-index: 2;
+    //margin-top: calcRem(30);
+    padding: calcRem(20) 0 calcRem(20) calcRem(20);
+    right: $contentPadding;
+    top: calcRem(125/2);
+    transform: translateY(-50%);
+
+    @include mappy-bp(lg) {
+      display: none;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+    /*&:before {
+      content: 'Discover';
+      position: absolute;
+      text-align: right;
+      left: 0;
+      top: 50%;
+      transform: translate(-95%, -50%);
+      line-height: 1;
+      transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+      color: $black;
+    }
+
+    @include mappy-bp(md) {
+      &:hover {
+        &:before {
+          transform: translate(-95%, -50%);
+          opacity: 1;
+        }
+      }
+    }*/
+
+    &__lines {
+      @include line(20,1);
+      position: relative;
+
+      &:before, &:after {
+        @include line(20,1);
+
+        position: absolute;
+        left:0;
+        content: '';
+      }
+
+      &:before {
+        top: calcRem(7);
+      }
+
+      &:after {
+        bottom:  calcRem(7);
+      }
+
+      &--is-animating {
+        background: transparent;
+
+        &:before, &:after{
+          transform-origin: 50% 50%;
+          top:0;
+          width: calcRem(20);
+        }
+
+        &:before{
+          transform: rotate3d(0,0,1, 45deg);
+        }
+        &:after{
+          transform: rotate3d(0,0,1,-45deg);
+        }
+      }
+    }
+  }
+}

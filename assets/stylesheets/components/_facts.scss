@@ -1,0 +1,66 @@
+.facts {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+
+  @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance);
+
+  @include mappy-bp(md) {
+    display: flex;
+  }
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__title {
+    @include mappy-bp(md) {
+      flex-basis: 25%;
+      padding-left: 70px;
+      padding-right: 5%;
+    }
+  }
+
+  &__list {
+    @include mappy-bp(md) {
+      flex-basis: 75%;
+      margin-top: - calcRem(25);
+    }
+  }
+
+  &__item {
+    padding-top: calcRem(10);
+
+    &:first-child {
+      padding-top: calcRem(30);
+    }
+
+    @include mappy-bp(md) {
+      display: flex;
+      padding-top: calcRem(60);
+
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+  }
+
+  &__hl-sl {
+    flex-basis: 50%;
+    padding-right: 10%;
+  }
+
+
+
+  &__sl {
+    // Min Font-Size: 28px
+    // Max Font-Size: 48px
+    @include fluid-size(font-size, 34em, 100em, 1.75rem, 2.5rem);
+
+    font-weight: 200;
+  }
+
+  &__copy {
+    flex-basis: 50%;
+  }
+}

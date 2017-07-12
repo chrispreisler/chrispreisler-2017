@@ -1,0 +1,136 @@
+.project-intro {
+  @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance / 1.25);
+
+  &__image {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+
+    > img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  &__text {
+    margin: 0 auto;
+    padding: 0 $contentPadding;
+    margin-top: calcRem(70);
+
+    @include mappy-bp(lg) {
+        margin-top: calcRem(120);
+    }
+
+    @include mappy-bp(xl) {
+      max-width: calcMaxWidth(1600);
+      padding: 0;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    @include mappy-bp(lg) {
+      flex-direction: row;
+      margin: 0;
+    }
+
+    &__hl-copy {
+      margin-top: calcRem(30);
+
+
+      @include mappy-bp(md) {
+        flex-basis: 60%;
+      }
+
+      @include mappy-bp(lg) {
+        margin-top: - calcRem(12);
+      }
+
+      @include mappy-bp(xl) {
+        flex-basis: 55%;
+        margin-top: - calcRem(18);
+      }
+    }
+
+    &__hl {
+
+    }
+
+    &__sl {
+      @include mappy-bp(md) {
+        flex-basis: 22%;
+        padding-right: 5%;
+      }
+    }
+
+    &__copy {
+      @include p-large;
+
+      margin: 0;
+    }
+  }
+
+  &__details {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: calcRem(50);
+
+    @include mappy-bp(lg) {
+      width: 60%;
+      margin-left: calc(22% + 70px);
+      width: 55%;
+    }
+
+    @include mappy-bp(xl) {
+      width: 55%;
+      justify-content: flex-start;
+    }
+
+    &__item {
+      margin: 0;
+      padding-right: 10%;
+
+      &:last-child {
+        padding: 0;
+      }
+
+      @include mappy-bp(xl) {
+        padding-right: 10%;
+      }
+    }
+
+    &__title {
+      margin: 0;
+
+      &:before {
+        display: none;
+      }
+    }
+
+    &__content {
+      margin: 0;
+      margin-top: calcRem(10);
+      line-height: 1.33;
+      @include p-large;
+    }
+  }
+
+  &__link {
+    @include secondary-cta;
+
+    margin-top: calcRem(40);
+
+
+    @include mappy-bp(lg) {
+      margin-top: calcRem(60);
+      margin-left: calc(22% + 70px);
+    }
+  }
+}

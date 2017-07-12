@@ -1,0 +1,91 @@
+Title: Maoam
+
+----
+
+Builder: 
+
+- 
+  headline: Maoam
+  subline: Infinite chewing fun
+  headlineimage: maoam-mouth-mini.jpg
+  _fieldset: headline
+- 
+  image: maoam-masthead.jpg
+  headline: >
+    Communicate the fun of chewing MAOAM
+    bonbons in the digital world
+  headlineimage: maoam-mouth-mini.jpg
+  subline: The story
+  copy: >
+    Maoam bonbons are unbelievable
+    delicious. If you eat one Maoam bonbon,
+    you always want to eat at least a
+    second. We satisfy the enthusiasm of the
+    fans for the tasteful fun and let them
+    experience the special chewing
+    experience on the new website. Say hello
+    to the Maoam Mouth. Feed it with the
+    Maoam products and experience the fun.
+  linklabel: Throw your favourite in
+  link: http://maoam.com/uk/
+  client: Website Relaunch
+  role: 'Ideation & Design'
+  year: "2016"
+  _fieldset: projectintroduction
+  type: Website Relaunch
+  imagemobile: maoam-teaser.jpg
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  video1: bloxx.mp4
+  video2: kracher.mp4
+  _fieldset: twovideos
+- 
+  headline: >
+    If taste becomes a colorful experience
+    and you are super hunted for Maoam
+    bonbons
+  subline: Entertaining product pages
+  copy: ""
+  images: |
+    - maoam-website-pinballs.jpg
+    - maoam-website-joystixx.jpg
+  _fieldset: multipleimages
+- 
+  headline: >
+    Feed the mouth and navigate to every
+    product even on mobile
+  subline: Funny and unusual navigation
+  copy: ""
+  video: maoam-navigation.mp4
+  _fieldset: onevideo
+- 
+  headline: >
+    Colorful teaser to use standard
+    navigation through the website
+  subline: Classic Navigation
+  copy: ""
+  image: maoam-website-teaser.jpg
+  _fieldset: oneimage
+- 
+  headline: Like this?
+  subline: 'You will also like this  👍'
+  teaser: jack-daniel-s, robotron-sb-lab
+  _fieldset: twoteaser
+
+----
+
+Teaserhl: Infinite chewing fun
+
+----
+
+Teaserimage: maoam-teaser.jpg
+
+----
+
+Teasersl: Maoam
+
+----
+
+Teaservideo: maoam-largeteaser.mp4

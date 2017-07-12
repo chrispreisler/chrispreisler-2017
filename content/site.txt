@@ -1,0 +1,33 @@
+Title: Chris Preisler Freelance Designer
+
+----
+
+Author: Chris Preisler
+
+----
+
+Description: This is the portfolio of freelance designer Chris Preisler.
+
+----
+
+Keywords: Chris Preisler, Design, Art Direction, Interaction Design, Webdesign, München, Munich, Development, Freelancer, UX Design, Concept, Konzepter
+
+----
+
+Copyright: © 2007-(date: Year) (link: http://chrispreisler.com text: Chris Preisler)
+
+----
+
+Builder: 
+
+----
+
+Teaserhl: 
+
+----
+
+Teasersl: 
+
+----
+
+Teaserimage: 

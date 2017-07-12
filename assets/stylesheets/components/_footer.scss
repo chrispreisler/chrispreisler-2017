@@ -1,0 +1,72 @@
+.footer {
+  background-color: $white;
+  padding-top: calcRem(80);
+  padding-bottom: calcRem(150);
+  position: relative;
+  margin-top: calcRem(100);
+
+  @include mappy-bp(sm) {
+    margin-top: calcRem(190);
+  }
+
+  &__text {
+    padding: 0 $contentPadding;
+    margin: 0 auto;
+
+    @include mappy-bp(xl) {
+      max-width: calcMaxWidth(1600);
+      padding: 0;
+    }
+  }
+
+  &__ol {
+    margin-left: calcRem(45);
+    position: relative;
+
+    @include mappy-bp(md) {
+      margin-left: calcRem(70);
+    }
+  }
+
+  &__hl {
+    color: $black;
+    margin-top: calcRem(80);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  &__sl {
+    color: rgba($black, .5);
+    color: $red;
+    margin-top: calcRem(20);
+  }
+
+  &__social {
+    margin-top: calcRem(65);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @include mappy-bp(sm) {
+      flex-direction: row;
+    }
+  }
+
+  &__link {
+    @include secondary-cta;
+
+    margin-top: calcRem(20);
+
+    @include mappy-bp(sm) {
+      margin-right: calcRem(50);
+      margin-top: 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+}

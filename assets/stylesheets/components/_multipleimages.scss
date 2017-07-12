@@ -1,0 +1,83 @@
+.multipleimages {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance);
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__text {
+
+    @include mappy-bp(sm) {
+      width: 75%;
+    }
+
+    @include mappy-bp(md) {
+      width: auto;
+      padding-left: 60%;
+    }
+
+    @include mappy-bp(xl) {
+      padding-left: 65%;
+    }
+  }
+
+  &__hl {
+    margin-top: calcRem(30);
+  }
+
+  &__copy {
+    margin-top: calcRem(10);
+
+    @include mappy-bp(md) {
+      margin-top: calcRem(20);
+    }
+  }
+
+  &__images {
+    display: flex;
+    margin-top: calcRem(20);
+
+    @include mappy-bp(md) {
+      margin-top: - calcRem(160);
+    }
+  }
+
+  &__column {
+    min-width: 0;
+    flex-basis: 47%;
+
+    &:first-child {
+      margin-right: 6%;
+    }
+
+    &:nth-child(2) {
+      @include mappy-bp(md) {
+        margin-top: calcRem(260);
+      }
+    }
+  }
+
+  &__image {
+    display: block;
+    margin-top: calcRem(15);
+
+    @include mappy-bp(sm) {
+      margin-top: calcRem(40);
+    }
+
+    &:first-child {
+      margin: 0;
+    }
+
+    > img {
+      display: block;
+    }
+  }
+}

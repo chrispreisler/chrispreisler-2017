@@ -1,0 +1,53 @@
+.profileintroduction {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+  background: $white;
+
+  @include fluid-size(('padding-top', 'padding-bottom', 'margin-top'), 34em, 90em, $compDistanceMobile, $compDistance / 1.25);
+
+  @include mappy-bp(md) {
+    padding-bottom: 0;
+    padding-top: 0;
+    background: none;
+  }
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__text {
+    text-align: center;
+
+    @include mappy-bp(sm) {
+      text-align: center;
+    }
+
+    @include mappy-bp(md) {
+      text-align: left;
+      margin-left: 50%;
+    }
+
+    @include mappy-bp(lg) {
+      width: 35%;
+    }
+  }
+
+  &__copy {
+    @include p-large;
+    margin-top: 0;
+
+    > strong {
+      font-weight: 500;
+    }
+  }
+
+  &__link {
+    @include secondary-cta;
+    margin-top: calcRem(20);
+
+    @include mappy-bp(md) {
+      margin-top: calcRem(40);
+    }
+  }
+}

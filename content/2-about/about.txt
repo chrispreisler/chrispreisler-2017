@@ -1,0 +1,159 @@
+Title: About
+
+----
+
+Text: Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+----
+
+Builder: 
+
+----
+
+Headline: 
+
+----
+
+Fullimage: profile.jpg
+
+----
+
+Facts: 
+
+- 
+  headline: I love my job
+  subline: And have a lot of fun doing it
+  copy: >
+    It all started when my parents taught
+    me, a 14 year old boy, how to design and
+    code websites. From then I was always
+    curious about creating and designing.
+- 
+  headline: I think complex
+  subline: But design simple
+  copy: >
+    Less design is more. No fancy buttons.
+    No special effects. No effect shaking.
+    Just simple, goal-oriented design, which
+    leads to a very good user experience.
+- 
+  headline: Details matter
+  subline: And also beautiful design
+  copy: >
+    Every little detail is important to
+    create the best user experience.
+- 
+  headline: One-time awarded
+  subline: And it’s no joke
+  copy: >
+    I and a few study friends have received
+    the award for the student project breyn
+    and it was a great feeling to receive
+    recognition for our work at student days
+    .
+- 
+  headline: I can do a Kickflip
+  subline: And a Heelflip
+  copy: >
+    Skateboarding gives me the freedom to
+    hide everything around me and just enjoy
+    the moment to gather new energy for my
+    work.
+
+----
+
+Brandheadline: I have a lot of experience thanks to the awesome brands I could work with and I am very excited for every new one.
+
+----
+
+Brandsubline: Clients
+
+----
+
+Brandimages: 
+
+- client-nivea.jpg
+- client-bosch.jpg
+- client-gebeco.jpg
+- client-persil.jpg
+- client-jack-daniels.jpg
+- client-maoam.jpg
+- client-prokon.jpg
+- client-nivea-men.jpg
+- client-tui-cruises.jpg
+
+----
+
+Galleryheadline: My love for photography
+
+----
+
+Gallerysubline: Snapshots of my life
+
+----
+
+Galleryimages: 
+
+- gallerie-4.jpg
+- gallerie-1.jpg
+- gallerie-5.jpg
+- gallerie-2.jpg
+- gallerie-3.jpg
+
+----
+
+Image: profile.jpg
+
+----
+
+Factstitle: Who is Chris?
+
+----
+
+Subline: I am Chris Preisler currently working as a Freelance Designer in Munich. Let’s design your digital future together – simply by creating experiences your users actually like to use.
+
+----
+
+Expertisesubline: What can I do for you?
+
+----
+
+Expertiseitem: 
+
+- 
+  text: Design
+- 
+  text: Art Direction
+- 
+  text: Website Design
+- 
+  text: Interactive Design
+- 
+  text: User Experience
+- 
+  text: Development
+
+----
+
+Expertiseitems: 
+
+- 
+  copy: Design
+- 
+  copy: Art Direction
+- 
+  copy: Website Design
+- 
+  copy: Interaction Design
+- 
+  copy: User Experience
+- 
+  copy: Development
+
+----
+
+Copy: My love for design started in the early years of the 21st century when my parents showed me, a 14 years old boy, how to code and design websites. From then I was always curious about creating things and improving my skills. I have been lucky enough to work with many talented people throughout the last years for well-known clients.  Today I can look back on nearly 10 years of design experience and knowledge and would love to share this experience with as much people as possible. In the end, I guess, I simply love what I do.
+
+----
+
+Fullimagemobile: about-mobile.jpg

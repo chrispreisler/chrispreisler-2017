@@ -1,0 +1,76 @@
+title: About
+pages: true
+files: true
+  fields:
+    caption:
+      label: Caption
+      type: textarea
+fields:
+  title:
+    label: Title
+    type:  text
+  headline:
+    label: Headline
+    type: text
+  subline:
+    label: Subline
+    type: text
+  fullimage:
+    label: Full Image
+    type: image
+  fullimagemobile:
+    label: Full Image Mobile
+    type: image
+  copy:
+    label: Copy
+    type: textarea
+  factstitle:
+    label: Facts Title
+    type: text
+  facts:
+    label: Facts about me
+    type: structure
+    entry: >
+      <strong>{{headline}}</strong><br>
+      <strong>{{subline}}</strong><br>
+      {{copy}}
+    fields:
+      headline:
+        label: Headline
+        type: text
+      subline:
+        label: Subline
+        type: text
+      copy:
+        label: Copy
+        type: text
+  expertisesubline:
+    label: Expertise Subline
+    type: text
+  expertiseitems:
+    label: Expertise Items
+    type: structure
+    entry: >
+      {{copy}}
+    fields:
+      copy:
+        label: Item
+        type: text
+  brandheadline:
+    label: Brand Headline
+    type: text
+  brandsubline:
+    label: Brand Subline
+    type: text
+  brandimages:
+    label: Brand Images
+    type: gallery
+  galleryheadline:
+    label: Gallery Headline
+    type: text
+  gallerysubline:
+    label: Gallery Subline
+    type: text
+  galleryimages:
+    label: Gallery Images
+    type: gallery

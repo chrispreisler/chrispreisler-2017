@@ -1,0 +1,36 @@
+.introduction {
+  padding: 0 5vw;
+  display: flex;
+  max-width: calcMaxWidth(1440);
+  margin: 0 auto;
+
+  &__hl {
+    font-size: calcRem(27);
+    color: $black;
+    opacity: 0.2;
+    flex-basis: 40%;
+    line-height: 1.3;
+  }
+
+  &__copylink {
+    flex-basis: 60%;
+  }
+
+  &__copy {
+    font-size: calcRem(40);
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0;
+    //margin-top: calcRem(8);
+    //letter-spacing: 0.02rem;
+  }
+
+  &__link {
+    padding: calcRem(15) calcRem(25);
+    background-color: $red;
+    font-weight: 500;
+    display: inline-block;
+    color: $white;
+    margin-top: calcRem(40);
+  }
+}

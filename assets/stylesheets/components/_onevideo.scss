@@ -1,0 +1,49 @@
+.onevideo {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+
+  @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile / 1.25 , $compDistance / 1.25);
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__hl {
+    margin: 0 auto;
+    margin-top: calcRem(30);
+
+    @include mappy-bp(md) {
+
+      text-align: center;
+      max-width: 50%;
+    }
+
+    @include mappy-bp(xl) {
+      max-width: 45%;
+    }
+  }
+
+  &__sl {
+    @include mappy-bp(md) {
+      text-align: center;
+      margin-left: calcRem(35);
+    }
+  }
+
+  &__item {
+    overflow: hidden;
+    @include fluid-size(margin-top, 34em, 90em, 2.5rem, 6rem);
+  }
+
+  &__video {
+    width: 99.2%;
+    height: auto;
+    line-height: 0;
+    display: block;
+
+    @include mappy-bp(sm) {
+      width: 100%;
+    }
+  }
+}

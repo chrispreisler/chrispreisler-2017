@@ -1,0 +1,86 @@
+.masthead {
+  position: relative;
+  //padding: 0 5vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22vh;
+  padding-bottom: 22vh;
+
+  @include mappy-bp(md) {
+    justify-content: center;
+  }
+
+  &__image {
+    //padding: 0 5vw;
+    //padding-top: 35vh;
+    //padding-bottom: 35vh;
+    z-index: 5;
+    width: 90vw;
+    -webkit-backface-visibility: hidden;
+
+    @include mappy-bp(sm) {
+      width: 55vw;
+    }
+
+    &--glow {
+      z-index: 2;
+      margin-top: calcRem(10);
+      opacity: 0.7;
+      filter: blur(15px);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__copy {
+
+    line-height: 1;
+    font-size: calcRem(16);
+    margin: 0;
+
+    @include mappy-bp(md) {
+      position: absolute;
+    }
+
+    &--left {
+      font-weight: 600;
+
+      @include mappy-bp(md) {
+        transform: rotate(-90deg) translateX(-50%);
+        transform-origin: top left;
+        left: 5vw;
+        top: 50%;
+      }
+    }
+
+    &--right {
+      font-weight: 400;
+
+      @include mappy-bp(md) {
+        transform: rotate(-90deg) translateX(50%);
+        transform-origin: bottom right;
+        right: 4vw;
+      }
+    }
+  }
+
+  &__bg-copy {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    font-size: calcRem(300);
+    color: $red;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0.05;
+    //opacity: 0;
+    z-index: 1;
+  }
+}

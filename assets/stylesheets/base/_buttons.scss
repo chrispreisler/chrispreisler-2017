@@ -1,0 +1,89 @@
+@mixin secondary-cta() {
+  display: inline-block;
+  position: relative;
+  font-weight: $font-weight-bold;
+
+  &:before {
+    width: 100%;
+    display: block;
+    height: calcRem(5);
+    opacity: .2;
+    position: absolute;
+    top: calcRem(15);
+    //left: 0;
+    background-color: $red;
+    content: '';
+    transition: width .8s cubic-bezier(.23,1,.32,1);
+  }
+
+  &:after {
+    /*@include background-svg('<svg xmlns="http://www.w3.org/2000/svg" width="29" height="18" viewBox="0 0 29 18">
+      <path fill="none" stroke="#1E1E1E" stroke-width="2" d="M18.873687 17L27 9l-8.126313-8M1 9h26" stroke-linecap="round"/>
+    </svg>');*/
+
+    @include background-svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.68 15.68"><defs><style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;}</style></defs><g id="Layer_2" data-name="Layer 2"><path class="cls-1" d="M0 7.84h25m-7 7.5l7-7.5-7-7.5" id="Layer_1-2" data-name="Layer 1"/></g></svg>');
+
+    width: calcRem(29);
+    height: calcRem(18);
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(150%, -50%);
+    transition: transform .4s cubic-bezier(.23,1,.32,1), stroke-color .4s cubic-bezier(.23,1,.32,1);
+  }
+
+  &:hover {
+    &:before {
+      width: 0;
+      right: 0;
+    }
+
+    &:after {
+      transform: translate(165%, -50%);
+    }
+  }
+}
+
+
+@mixin primary-cta() {
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+  padding: calcRem(15) calcRem(25);
+  padding-right: calcRem(69);
+  background: #FF1D23;
+  box-shadow: 0;
+  border-radius: 3px;
+  border: calcRem(1) solid $red;
+  color: white;
+  transition: box-shadow .4s cubic-bezier(.23,1,.32,1);
+
+  &:after {
+    @include background-svg('<svg xmlns="http://www.w3.org/2000/svg" width="29" height="18" viewBox="0 0 29 18">
+      <path fill="none" stroke="#fff" stroke-width="2" d="M18.873687 17L27 9l-8.126313-8M1 9h26" stroke-linecap="round"/>
+    </svg>');
+    width: calcRem(29);
+    height: calcRem(18);
+    content: '';
+    position: absolute;
+    right: calcRem(0);
+    top: 50%;
+    right: 25px;
+    transform: translate(0, -50%);
+    transition: transform .4s cubic-bezier(.23,1,.32,1);
+  }
+
+  &:hover {
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
+
+    &:before {
+      width: 100%;
+      left: 0;
+    }
+
+    &:after {
+      transform: translate(20%, -50%);
+    }
+  }
+}

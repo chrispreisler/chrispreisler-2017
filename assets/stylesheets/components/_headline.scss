@@ -1,0 +1,72 @@
+.headline {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+  margin-top: 25vh;
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &--about {
+    text-align: center;
+    max-width: calcRem(900);
+
+    @include fluid-size(margin-top, 34em, 150em, $compDistanceMobile, $compDistance);
+  }
+
+  &__hl {
+    margin-top: calcRem(20);
+
+    @include mappy-bp(md) {
+      margin-top: calcRem(40);
+    }
+
+    &--about {
+      //font-weight: 200;
+      line-height: 1.25;
+      @include fluid-size(font-size, 34em, 140em, 2.375rem, 5rem);
+
+    }
+
+    &__image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      max-width: 50%;
+      transform: translateX(110%);
+
+      @include mappy-bp(md) {
+        max-width: 100%;
+      }
+    }
+  }
+
+  &__ol {
+    margin-left: calcRem(45);
+    position: relative;
+
+    &:before {
+      display: none;
+    }
+
+    @include mappy-bp(md) {
+      margin-left: calcRem(70);
+    }
+
+    &__line {
+      height: calcRem(1);
+      width: calcRem(30);
+      content: '';
+      background-color: $black;
+      position: absolute;
+      top: 5px;
+      transform: translateX(- calcRem(45));
+
+      @include mappy-bp(md) {
+        width: calcRem(50);
+        transform: translateX(- calcRem(70));
+      }
+    }
+  }
+}

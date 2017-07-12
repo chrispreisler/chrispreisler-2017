@@ -1,0 +1,78 @@
+.fourimages {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+  margin-top: calcRem($compDistanceMobile);
+  display: flex;
+  flex-flow: row wrap;
+
+  @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance);
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__text {
+
+    @include mappy-bp(md) {
+      order: 2;
+      flex-basis: 55%;
+      padding-left: 10%;
+      padding-bottom: calcRem(100);
+    }
+  }
+
+  &__hl {
+    margin-top: calcRem(20);
+
+    @include mappy-bp(md) {
+      margin-top: calcRem(30);
+    }
+  }
+
+  &__copy {
+    margin-top: calcRem(10);
+
+    @include mappy-bp(md) {
+      margin-top: calcRem(20);
+    }
+  }
+
+  &__imagegroup-first {
+    margin-top: calcRem(20);
+    min-width: 0;
+
+    @include mappy-bp(md) {
+      margin: 0;
+      align-self: flex-end;
+      flex-basis: 45%;
+      order: 1;
+    }
+
+    &__image {
+      display: block;
+
+      > img {
+        display: block;
+      }
+    }
+  }
+
+  &__imagegroup-second {
+    min-width: 0;
+
+    @include mappy-bp(md) {
+      order: 3;
+      flex-basis: 45%;
+
+      &__image {
+        transform: translateX(50%);
+        display: block;
+
+        > img {
+          display: block;
+        }
+      }
+    }
+  }
+}

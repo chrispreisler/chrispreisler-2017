@@ -1,0 +1,118 @@
+.siximages {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance);
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__text {
+    @include mappy-bp(md) {
+      padding-left: 60%;
+    }
+
+    @include mappy-bp(xl) {
+      padding-left: 65%;
+    }
+  }
+
+  &__hl {
+    margin-top: calcRem(20);
+
+    @include mappy-bp(md) {
+      margin-top: calcRem(30);
+    }
+  }
+
+  &__copy {
+    margin-top: calcRem(10);
+
+    @include mappy-bp(md) {
+      margin-top: calcRem(20);
+    }
+  }
+
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calcRem(5);
+    justify-content: space-between;
+
+    @include mappy-bp(md) {
+      margin-top: - calcRem(250);
+    }
+  }
+
+  &__column {
+    min-width: 0;
+    flex-basis: 100%;
+    //margin-right: 4vw;
+
+    &:first-child {
+      //margin-right: 4vw;
+    }
+
+    &:nth-child(4) {
+      @include mappy-bp(sm) {
+        margin-top: calcRem(100);
+      }
+
+      @include mappy-bp(md) {
+        margin-top: calcRem(155);
+      }
+    }
+
+    @include mappy-bp(sm) {
+      flex-basis: 47%;
+
+      &:first-child {
+        margin-right: 6%;
+      }
+    }
+
+    &--full {
+      margin: 0 auto;
+
+      @include mappy-bp(sm) {
+        flex-basis: 80%;
+      }
+    }
+  }
+
+  &__image {
+    display: block;
+    margin-top: calcRem(15);
+
+    @include mappy-bp(sm) {
+      margin-top: calcRem(50);
+    }
+
+    > img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  &__video {
+    display: block;
+    margin-top: calcRem(40);
+    width: 120%;
+    height: auto;
+    line-height: 0;
+    margin-left: - $contentPadding;
+    margin-bottom: calcRem(25);
+    //margin-right: - $contentPadding;
+
+    @include mappy-bp(sm) {
+      margin: 0;
+      width: 100%;
+      margin-top: calcRem(50);
+    }
+  }
+}

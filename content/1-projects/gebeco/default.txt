@@ -1,0 +1,91 @@
+Title: Gebeco
+
+----
+
+Builder: 
+
+- 
+  headline: Gebeco
+  subline: Traveling together
+  headlineimage: ""
+  _fieldset: headline
+- 
+  image: gebeco-masthead.jpg
+  imagemobile: gebeco-teaser.jpg
+  headline: Gebeco’s passion for travelling
+  subline: The story
+  copy: 'More and more tourists don’t want to just travel to a country. They seek for more. They want to get to know the culture. They want to meet people from the country. They really want to understand what it means living in the country they are traveling to. Gebeco offers you exactly this: an adventure. The focus of the new, responsive website is to communicate this adventures and offer users an easy booking experience.'
+  linklabel: ""
+  link: ""
+  type: Website Relaunch
+  role: 'Concept & Design'
+  year: "2016"
+  _fieldset: projectintroduction
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  video: gebeco-homepage-2.mp4
+  _fieldset: onevideo
+- 
+  headline: >
+    The beauty and uniqueness of each
+    destination are communicated to the user
+    through Region Looks
+  subline: Visual language
+  copy: ""
+  image: gebeco-visual-language.jpg
+  _fieldset: fullimage
+- 
+  headline: >
+    Get inspired by the destinations Gebeco
+    travels to and get detailed information
+    about every adventure
+  subline: Destinations and adventures
+  copy: ""
+  images: |
+    - gebeco-website-country.jpg
+    - gebeco-website-trip.jpg
+  _fieldset: multipleimages
+- 
+  headline: >
+    By simplifying the booking process you
+    can book your adventure in only 4 steps,
+    even on mobile
+  subline: User Experience
+  copy: ""
+  image: gebeco-booking-process.jpg
+  _fieldset: oneimage
+- 
+  headline: Iconset
+  subline: Differentiate trips
+  copy: >
+    Etiam porta sem malesuada magna mollis
+    euismod. Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Lorem ipsum
+    dolor sit amet, consectetur adipiscing
+    elit. Fusce dapibus, tellus ac cursus
+    commodo, tortor mauris.
+  image: gebeco-icons.jpg
+  _fieldset: oneimage
+- 
+  headline: Like this?
+  subline: You will also like this 👍
+  teaser: jack-daniel-s, prokon
+  _fieldset: twoteaser
+
+----
+
+Teaserhl: Traveling together
+
+----
+
+Teasersl: Gebeco
+
+----
+
+Teaserimage: gebeco-teaser.jpg
+
+----
+
+Teaservideo: 

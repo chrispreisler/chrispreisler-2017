@@ -1,0 +1,55 @@
+.oneimage {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+
+  @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance);
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__hl {
+    margin: 0 auto;
+    margin-top: calcRem(30);
+
+    @include mappy-bp(md) {
+
+      text-align: center;
+      max-width: 50%;
+    }
+
+    @include mappy-bp(xl) {
+      max-width: 45%;
+    }
+  }
+
+  &__sl {
+    @include mappy-bp(md) {
+      text-align: center;
+      margin-left: calcRem(35);
+    }
+  }
+
+
+  &__copy {
+    margin-top: calcRem(10);
+
+    @include mappy-bp(md) {
+      margin-top: calcRem(20);
+    }
+  }
+
+  &__image {
+    @include fluid-size(margin-top, 34em, 90em, 2.5rem, 6rem);
+    display: block;
+
+    @include mappy-bp(md) {
+      //margin-top: calcRem(30);margin-top: calcRem(50);
+    }
+
+    > img {
+      display: block;
+    }
+  }
+}

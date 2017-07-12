@@ -1,0 +1,45 @@
+.text {
+  padding: 0 $contentPadding;
+  background: $white;
+
+  @include fluid-size(('padding-top', 'padding-bottom', 'margin-top'), 34em, 90em, $compDistanceMobile, $compDistance);
+
+  &--about {
+    margin-top: 0;
+  }
+
+  &__copy {
+    @include p-large;
+
+    @include mappy-bp(md) {
+      //margin-left: calc(22% + 70px);
+      margin: 0 auto;
+      width: 50%;
+      text-align: center;
+    }
+
+    @include mappy-bp(xl) {
+      max-width: calcMaxWidth(1600);
+      padding: 0;
+      width: 40%;
+    }
+
+    &--about {
+      width: auto;
+      text-align: center;
+
+      @include mappy-bp(md) {
+        max-width: 70%;
+      }
+
+      @include mappy-bp(lg) {
+        max-width: 60%;
+      }
+
+      @include mappy-bp(xl) {
+        max-width: 50%;
+      }
+
+    }
+  }
+}

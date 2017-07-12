@@ -1,0 +1,89 @@
+Title: NIVEA MEN
+
+----
+
+Builder: 
+
+- 
+  headline: NIVEA MEN
+  subline: Der Creme
+  headlineimage: nme-creme-mini.jpg
+  _fieldset: headline
+- 
+  image: nivea-men-masthead.jpg
+  imagemobile: nivea-men-teaser.jpg
+  headline: NIVEA MEN
+  headlineimage: nme-creme-mini.jpg
+  subline: Der Creme
+  copy: 'Men are very skeptical about female products such as creams. They want to distance themselves as much as possible from woman care. After all, men want a cream that is not 100% but 110% man. The new NIVEA MEN cream fulfils exactly this. It was created totally with the care needs of real men, for the first time it looks like a cream for men only and it feels like a cream for men: Der Creme.'
+  linklabel: ""
+  link: ""
+  type: Microsite
+  role: 'Ideation & Design'
+  year: "2015"
+  _fieldset: projectintroduction
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  image: nivea-men-repsonsive.jpg
+  _fieldset: oneimage
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  video: nivea-men-der-creme.mp4
+  _fieldset: onevideo
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  image: nivea-men-website-tv-spot.jpg
+  _fieldset: oneimage
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  image: nivea-men-website-teaser.jpg
+  _fieldset: oneimage
+- 
+  headline: "The one and only cream for a man's face and his full body"
+  subline: Der Creme
+  copy: ""
+  images: |
+    - nivea-men-application-face.jpg
+    - nivea-men-application-body.jpg
+    - nivea-men-application-hands.jpg
+  _fieldset: threeimages
+- 
+  headline: >
+    Crafted for the most masculine man
+    himself by a real men care brand
+  subline: Der Creme
+  copy: ""
+  image: nivea-men-video.jpg
+  videourl: >
+    https://www.youtube.com/watch?v=swIcGXlsr9U
+  _fieldset: video
+  videoid: swIcGXlsr9U
+- 
+  headline: Like this?
+  subline: You will also like this 👍
+  teaser: jack-daniel-s, prokon
+  _fieldset: twoteaser
+
+----
+
+Teaserhl: Care your masculinity: Der Creme
+
+----
+
+Teaserimage: nivea-men-teaser.jpg
+
+----
+
+Teasersl: NIVEA MEN
+
+----
+
+Teaservideo: 

@@ -1,0 +1,86 @@
+Title: Prokon
+
+----
+
+Builder: 
+
+- 
+  headline: Prokon
+  subline: Sharing energy together
+  headlineimage: ""
+  _fieldset: headline
+- 
+  image: prokon-masthead.jpg
+  headline: The Story
+  headlineimage: ""
+  subline: The Story
+  copy: "The interest in green energy has steadily increased in recent years. More and more people realize that there is no future for coal or nuclear power plants. This is why Prokon has set itself the task of securing our future through wind energy and thus 100% green electricity. As Germany's largest energy cooperative, everyone can participate and contribute to this vision.  The Prokon brand was completely redesigned to better communicate their passion for renewable energies and nature with a focus on the website as a central hub."
+  linklabel: Visit Website
+  link: http://www.prokon.net/
+  type: Brand Relaunch
+  role: 'Concept & Design'
+  year: "2016"
+  _fieldset: projectintroduction
+  imagemobile: prokon-teaser.jpg
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  image: prokon-repsonsive.jpg
+  _fieldset: oneimage
+- 
+  headline: >
+    Offering an engaging energy page and a
+    participating member page
+  subline: Inspiration and Conversion
+  copy: ""
+  images: |
+    - prokon-website-energy.jpg
+    - prokon-website-cooperative.jpg
+  _fieldset: multipleimages
+- 
+  headline: >
+    Communicating passion through bold
+    colors and emotional images
+  subline: The visual language
+  copy: ""
+  image: prokon-visual-language.jpg
+  _fieldset: fullimage
+- 
+  headline: >
+    People enjoy their lives in harmony with
+    nature
+  subline: The image look
+  copy: ""
+  images: |
+    - prokon-image-look-family.jpg
+    - prokon-image-look-young-lady.jpg
+    - prokon-image-look-couple.jpg
+  _fieldset: threeimages
+- 
+  headline: Designed only for Prokon
+  subline: Emotional Illustrations
+  copy: ""
+  image: prokon-illustrations.jpg
+  _fieldset: oneimage
+- 
+  headline: Like this?
+  subline: You will also like this 👍
+  teaser: gebeco, jack-daniel-s
+  _fieldset: twoteaser
+
+----
+
+Teaserhl: Sharing energy together
+
+----
+
+Teasersl: Prokon
+
+----
+
+Teaserimage: prokon-teaser.jpg
+
+----
+
+Teaservideo: 

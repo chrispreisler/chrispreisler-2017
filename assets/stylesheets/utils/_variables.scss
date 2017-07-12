@@ -1,0 +1,50 @@
+// Colors
+
+$white: #fff;
+$black: #121212;
+$red: #FF1D23;
+$redFaded: #FFD2D3;
+$lightgrey: #F5F5F5;
+
+$clientcolors: (
+  maoam: #FFBE00,
+  nivea-men: #003566,
+  gebeco: #00305D,
+  jack-daniel-s: #000000,
+  robotron-sb-lab: #2373AC
+);
+
+$clientColorsFaded: (
+  default: #FFD2D3,
+  maoam: #FFF2CC,
+  nivea-men: #CCD7E0,
+  gebeco: #CCD6DF,
+  jack-daniel-s: #CCCCCC,
+  robotron-sb-lab: #D3E3EE
+);
+
+
+// Fonts
+
+//$font-family: 'acumin-pro', sans-serif;
+$font-family: 'neuzeit-grotesk', sans-serif;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 600;
+
+
+// Breakpoint Map
+
+$breakpoints: (
+  'sm': 34em,   // 544px
+  'md': 48.0625em,   // 768px
+  'lg': 62em,   // 992px
+  'xl': 100em    // 1600px
+);
+
+// Abstände
+
+$compDistance: 12.5rem; // 150px
+$compDistanceMobile: 6rem; // 60px
+$headlineWidth: 850;
+$contentPadding: 8vw;

@@ -1,0 +1,14 @@
+{
+  "src": "./assets/",
+  "dest": "./assets/public",
+
+  "javascripts": {
+    "src": "javascripts",
+    "dest": "javascripts"
+  },
+
+  "stylesheets": {
+    "src": "stylesheets",
+    "dest": "stylesheets"
+  }
+}

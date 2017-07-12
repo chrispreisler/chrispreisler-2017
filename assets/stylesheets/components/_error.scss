@@ -1,0 +1,46 @@
+.error {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+  position: relative;
+
+  @include fluid-size(margin-top, 34em, 150em, $compDistanceMobile, $compDistance);
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__ol {
+    @include mappy-bp(md) {
+      text-align: center;
+      margin-left: calcRem(35);
+    }
+  }
+
+  &__hl {
+    //@include p-large;
+    margin: 0 auto;
+    margin-top: calcRem(30);
+
+    @include mappy-bp(md) {
+      text-align: center;
+      max-width: 50%;
+    }
+
+    @include mappy-bp(xl) {
+      max-width: 45%;
+    }
+  }
+
+  &__link {
+    @include secondary-cta;
+    display: inline-block;
+
+    @include fluid-size(margin-top, 34em, 90em, 4rem, 7rem);
+
+    @include mappy-bp(md) {
+      left: 50%;
+      transform: translateX(-55%);
+    }
+  }
+}

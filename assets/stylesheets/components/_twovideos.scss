@@ -1,0 +1,55 @@
+.twovideos {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+  background: $white;
+
+  @include fluid-size(('padding-top', 'padding-bottom', 'margin-top'), 34em, 90em, $compDistanceMobile / 1.25 , $compDistance / 1.25);
+
+
+
+  &__hl {
+    text-align: center;
+  }
+
+  &__sl {
+    font-weight: 200;
+    text-align: center;
+  }
+
+  &__list {
+    margin: 0 auto;
+    //margin-top: calcRem(40);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    @include mappy-bp(sm) {
+      //margin-top: calcRem(80);
+      flex-flow: row;
+    }
+
+    @include mappy-bp(xl) {
+      max-width: calcMaxWidth(1600);
+      padding: 0;
+    }
+  }
+
+  &__item {
+    line-height: 0;
+
+    &:first-child {
+      margin-right: 6%;
+    }
+
+    @include mappy-bp(sm) {
+      flex-basis: 47%;
+    }
+  }
+
+  &__video {
+    width:100%;
+    max-width:100%;
+    height:auto;
+    line-height: 0;
+  }
+}

@@ -1,0 +1,21 @@
+Title: Newsletter
+
+----
+
+Builder: 
+
+----
+
+Teaserhl: 
+
+----
+
+Teasersl: 
+
+----
+
+Teaserimage: 
+
+----
+
+Teaservideo: 

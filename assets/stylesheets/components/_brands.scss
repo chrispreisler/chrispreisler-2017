@@ -1,0 +1,71 @@
+.brands {
+  background: $white;
+  padding: calcRem(150) $contentPadding;
+  position: relative;
+
+  @include fluid-size(('margin-top', 'padding-top', 'padding-bottom'), 34em, 90em, $compDistanceMobile, $compDistance);
+
+  &__hl {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: calcRem(30);
+
+    @include mappy-bp(md) {
+      max-width: 50%;
+    }
+
+    @include mappy-bp(xl) {
+      max-width: 45%;
+    }
+  }
+
+  &__ol {
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @include fluid-size(margin-top, 34em, 90em, 1.25rem, 2rem);
+    //margin-top: 20px;
+
+    @include mappy-bp(xl) {
+      max-width: calcMaxWidth(1600);
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__item {
+    width: calc(50% - 20px);
+
+    @include fluid-size(margin-top, 34em, 90em, 1.875rem, 6rem);
+
+    @include mappy-bp(md) {
+      width: calc(100% / 3 - 40px);
+    }
+
+    @include mappy-bp(lg) {
+      width: calc(100% / 3);
+    }
+  }
+
+  &__image {
+    display: block;
+    //margin: 0 auto;
+    //opacity: 1;
+    line-height: 0;
+
+    > img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    @include mappy-bp(md) {
+      //transform: scale(1);
+    }
+  }
+}

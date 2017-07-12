@@ -1,0 +1,38 @@
+Title: Home
+
+----
+
+Builder: 
+
+- 
+  teaseritem: maoam
+  _fieldset: largeteaser
+- 
+  copy: '<strong>Hey, nice to meet you.</strong> ✌️ I am Chris Preisler working as Freelance Designer in Munich. Let’s design your digital future, together – simply by making it easier for people to use your products.'
+  linklabel: Say hello
+  link: hello@chrispreisler.com
+  _fieldset: profileintroduction
+- 
+  headline: Selected projects
+  subline: Designed with happiness 😀
+  teaserlist: >
+    gebeco, jack-daniel-s, nivea-men,
+    prokon, robotron-sb-lab
+  _fieldset: teaser
+  teaserlist2: ""
+
+----
+
+Teaserhl: 
+
+----
+
+Teaserimage: 
+
+----
+
+Teasersl: 
+
+----
+
+Teaservideo: 

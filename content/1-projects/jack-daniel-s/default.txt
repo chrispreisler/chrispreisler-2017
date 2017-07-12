@@ -1,0 +1,84 @@
+Title: Jack Daniel's
+
+----
+
+Builder: 
+
+- 
+  headline: Jack Daniel’s
+  subline: Crafting whiskey for over 150 years
+  headlineimage: ""
+  _fieldset: headline
+- 
+  image: jack-daniels-masthead.jpg
+  imagemobile: jack-daniels-teaser.jpg
+  headline: "Everyday Jack Daniel's makes it and they will make it the best they can."
+  headlineimage: ""
+  subline: The story
+  copy: >
+    Crafting something that endures for over
+    150 years takes time and character.
+    You’ll find plenty of both in the
+    people and history that make Jack
+    Daniel’s. But many Germans do not know
+    that their beloved Whiskey has been
+    produced in the same way and in the same
+    distillery for the last 150 years. On
+    the Microsite, the user can learn more
+    about the manufacturing process in an
+    interactive way.
+  linklabel: Visit Microsite
+  link: http://www.jackdaniels.de/150/
+  type: Campaign
+  role: 'Ideation & Design'
+  year: "2016"
+  _fieldset: projectintroduction
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  video: jack-daniels-responsive.mp4
+  _fieldset: onevideo
+- 
+  headline: >
+    Celebrating all of the touches and
+    attention to details throughout the
+    barreling and maturing process
+  subline: Crafting Jack Daniel’s
+  copy: ""
+  images: |
+    - jack-daniels-website-barrel.jpg
+    - jack-daniels-website-fire.jpg
+    - jack-daniels-website-coal.jpg
+    - jack-daniels-website-taste.jpg
+    - jack-daniels-website-bottle.jpg
+    - jack-daniels-website-clap.jpg
+  _fieldset: siximages
+  videoitem: jack-daniels-website-fire-bg.mp4
+- 
+  headline: Handcrafted with great love for details
+  subline: Campaign Logo and Icons
+  copy: ""
+  image: jack-daniels-campaign-ui.jpg
+  _fieldset: oneimage
+- 
+  headline: Like this?
+  subline: You will also like this 👍
+  teaser: gebeco, nivea-men
+  _fieldset: twoteaser
+
+----
+
+Teaserhl: Crafting whiskey for over 150 years
+
+----
+
+Teaserimage: jack-daniels-teaser.jpg
+
+----
+
+Teasersl: Jack Daniel’s
+
+----
+
+Teaservideo: 

@@ -1,0 +1,29 @@
+figure {
+ margin: 0;
+ padding: 0;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.image__overlay {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform: translateX(-100%);
+
+  @each $client-colors-faded, $color in $clientColorsFaded {
+    &--#{$client-colors-faded} {
+      background-color: $color;
+    }
+  }
+
+  &--prokon {
+    background: linear-gradient(224deg, #F4CCEC 0%, #FFE0CC 100%);
+  }
+}

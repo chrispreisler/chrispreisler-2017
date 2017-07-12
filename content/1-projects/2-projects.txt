@@ -1,0 +1,44 @@
+Title: Projects
+
+----
+
+Builder: 
+
+- 
+  teaseritem: maoam
+  _fieldset: largeteaser
+- 
+  copy: >
+    Hey, nice to meet you. ✌️ I am Chris
+    Preisler currently working as Freelance
+    Designer in Munich. Let’s design your
+    digital future together – simply by
+    creating experiences your users actually
+    like to use.
+  linklabel: Say Hello
+  link: hello@chrispreisler.com
+  _fieldset: profileintroduction
+- 
+  headline: Selected projects
+  subline: Designed with happiness
+  teaserlist: >
+    gebeco, jack-daniel-s, nivea-men,
+    prokon, robotron-sb-lab
+  teaserlist2: ""
+  _fieldset: teaser
+
+----
+
+Teaserhl: Der Creme
+
+----
+
+Teaserimage: 
+
+----
+
+Teasersl: 
+
+----
+
+Teaservideo: 

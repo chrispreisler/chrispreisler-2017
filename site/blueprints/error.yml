@@ -1,0 +1,16 @@
+title: Error
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  overline:
+    label: Error Overline
+    type: text
+  headline:
+    label: Error Headline
+    type: text
+  linklabel:
+    label: Link Label
+    type: text

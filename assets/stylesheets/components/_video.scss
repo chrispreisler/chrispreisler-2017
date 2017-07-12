@@ -1,0 +1,83 @@
+.video {
+  padding: 0 $contentPadding;
+  margin: 0 auto;
+
+  @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance);
+
+  @include mappy-bp(xl) {
+    max-width: calcMaxWidth(1600);
+    padding: 0;
+  }
+
+  &__hl {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: calcRem(30);
+
+    @include mappy-bp(md) {
+      max-width: 50%;
+    }
+
+    @include mappy-bp(xl) {
+      max-width: 45%;
+    }
+  }
+
+  &__sl {
+    text-align: center;
+  }
+
+  &__copy {
+    margin: 0 auto;
+    margin-top: calcRem(20);
+  }
+
+  &__iframe {
+    margin-top: calcRem(40);
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    display: none;
+    opacity: 0;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__preview {
+    position: relative;
+    display: block;
+  }
+
+  &__playbtn {
+    @include background-svg('<svg width="106" height="106" viewBox="0 0 106 106">
+      <g fill="none" fill-rule="evenodd">
+        <circle cx="53" cy="53" r="53" fill="#FFF" opacity=".2"/>
+        <circle cx="53" cy="53" r="45" fill="#FF1D23"/>
+        <path fill="#FFF" d="M43 39.1275334c0-1.0226371.8344055-1.3945052 1.668811-.9296701l21.6945429 13.8520855c.8344055.4648351.8344055 1.3945053.0834406 1.8593404L44.668811 67.7613747C43.8344055 68.3191768 43 67.8543417 43 66.8317045V39.1275334z"/>
+      </g>
+    </svg>');
+    width: calcRem(106);
+    height: calcRem(106);
+    content: '';
+    position: absolute;
+    //right: calcRem(0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%) scale(0.65);
+
+    @include mappy-bp(md) {
+      transform: translate(-50%, -85%) scale(0.9);
+      transition: transform 0.4s ease;
+
+      &:hover {
+        transform: translate(-50%, -85%) scale(1);
+      }
+    }
+  }
+}
