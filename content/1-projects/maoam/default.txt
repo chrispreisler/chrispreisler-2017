@@ -16,17 +16,8 @@ Builder:
     bonbons in the digital world
   headlineimage: maoam-mouth-mini.jpg
   subline: The story
-  copy: >
-    Maoam bonbons are unbelievable
-    delicious. If you eat one Maoam bonbon,
-    you always want to eat at least a
-    second. We satisfy the enthusiasm of the
-    fans for the tasteful fun and let them
-    experience the special chewing
-    experience on the new website. Say hello
-    to the Maoam Mouth. Feed it with the
-    Maoam products and experience the fun.
-  linklabel: Throw your favourite in
+  copy: 'Maoam bonbons are unbelievably  delicious. If you eat one Maoam bonbon, you always want to eat at least a second. We satisfy the enthusiasm of the fans for the tasteful fun and let them experience the special chewing experience on the new website. Say hello to the Maoam Mouth. Feed it with the Maoam products and experience the fun.'
+  linklabel: Throw in your favourite
   link: http://maoam.com/uk/
   client: Website Relaunch
   role: 'Ideation & Design'
@@ -55,10 +46,10 @@ Builder:
 - 
   headline: >
     Feed the mouth and navigate to every
-    product even on mobile
+    product, even on mobile
   subline: Funny and unusual navigation
   copy: ""
-  video: maoam-navigation.mp4
+  video: maoam-navigation-2.mp4
   _fieldset: onevideo
 - 
   headline: >

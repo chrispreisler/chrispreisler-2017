@@ -1,5 +1,4 @@
 .siximages {
-  padding: 0 $contentPadding;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -7,12 +6,22 @@
 
   @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance);
 
+  @include mappy-bp(sm) {
+    padding: 0 $contentPadding;
+  }
+
   @include mappy-bp(xl) {
     max-width: calcMaxWidth(1600);
     padding: 0;
   }
 
   &__text {
+    padding: 0 $contentPadding;
+
+    @include mappy-bp(sm) {
+      padding: 0;
+    }
+
     @include mappy-bp(md) {
       padding-left: 60%;
     }
@@ -88,9 +97,11 @@
   &__image {
     display: block;
     margin-top: calcRem(15);
+    padding: 0 $contentPadding;
 
     @include mappy-bp(sm) {
       margin-top: calcRem(50);
+      padding: 0;
     }
 
     > img {
@@ -102,10 +113,10 @@
   &__video {
     display: block;
     margin-top: calcRem(40);
-    width: 120%;
+    //width: 120%;
     height: auto;
     line-height: 0;
-    margin-left: - $contentPadding;
+    //margin-left: - $contentPadding;
     margin-bottom: calcRem(25);
     //margin-right: - $contentPadding;
 

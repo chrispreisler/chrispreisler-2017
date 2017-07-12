@@ -24,7 +24,7 @@ Builder:
     that their beloved Whiskey has been
     produced in the same way and in the same
     distillery for the last 150 years. On
-    the Microsite, the user can learn more
+    the Microsite, the users can learn more
     about the manufacturing process in an
     interactive way.
   linklabel: Visit Microsite

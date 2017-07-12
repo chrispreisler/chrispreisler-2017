@@ -10,17 +10,18 @@
   }
 
   &__ol {
+    text-align: center;
+    
     @include mappy-bp(sm) {
-      text-align: center;
       margin-left: calcRem(35);
     }
   }
 
   &__hl {
     margin-top: calcRem(20);
+    text-align: center;
 
     @include mappy-bp(sm) {
-      text-align: center;
       margin-top: calcRem(30);
     }
   }

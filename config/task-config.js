@@ -25,8 +25,8 @@ module.exports = {
     },*/
     proxy: 'http://localhost:8888/',
     files: ["./site/**/*.{php}"],
-    host: '192.168.2.114'
-    //host: '192.168.101.36'
+    //host: '192.168.2.114'
+    host: '192.168.101.36'
   },
 
   production: {

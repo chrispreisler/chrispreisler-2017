@@ -62,7 +62,7 @@ Facts:
 
 ----
 
-Brandheadline: I have a lot of experience thanks to the awesome brands I could work with and I am very excited for every new one.
+Brandheadline: I have a lot of experience, thanks to the awesome brands I could work with and I am very excited for every new one.
 
 ----
 
@@ -110,7 +110,7 @@ Factstitle: Who is Chris?
 
 ----
 
-Subline: I am Chris Preisler currently working as a Freelance Designer in Munich. Let’s design your digital future together – simply by creating experiences your users actually like to use.
+Subline: My name is Chris Preisler, currently working as a Freelance Designer in Munich. Let’s design your digital future together – simply by creating experiences your users actually like to use.
 
 ----
 

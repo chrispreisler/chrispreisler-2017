@@ -14,7 +14,7 @@ Builder:
   imagemobile: gebeco-teaser.jpg
   headline: Gebeco’s passion for travelling
   subline: The story
-  copy: 'More and more tourists don’t want to just travel to a country. They seek for more. They want to get to know the culture. They want to meet people from the country. They really want to understand what it means living in the country they are traveling to. Gebeco offers you exactly this: an adventure. The focus of the new, responsive website is to communicate this adventures and offer users an easy booking experience.'
+  copy: 'More and more tourists don’t want to just travel to a country. They seek for more. They want to get to know the culture. They want to meet people from the country. They really want to understand what it means living in the country they are traveling to. Gebeco offers you exactly this: an adventure. The focus of the new, responsive website is to communicate this adventures and offer travelers an easy booking experience.'
   linklabel: ""
   link: ""
   type: Website Relaunch
@@ -30,8 +30,8 @@ Builder:
 - 
   headline: >
     The beauty and uniqueness of each
-    destination are communicated to the user
-    through Region Looks
+    destination are communicated to the
+    traveler through Region Looks
   subline: Visual language
   copy: ""
   image: gebeco-visual-language.jpg
@@ -49,23 +49,20 @@ Builder:
   _fieldset: multipleimages
 - 
   headline: >
-    By simplifying the booking process you
-    can book your adventure in only 4 steps,
-    even on mobile
+    By simplifying the booking process, the
+    travelers can book their adventure in
+    only 4 steps, even on mobile
   subline: User Experience
   copy: ""
   image: gebeco-booking-process.jpg
   _fieldset: oneimage
 - 
-  headline: Iconset
-  subline: Differentiate trips
-  copy: >
-    Etiam porta sem malesuada magna mollis
-    euismod. Lorem ipsum dolor sit amet,
-    consectetur adipiscing elit. Lorem ipsum
-    dolor sit amet, consectetur adipiscing
-    elit. Fusce dapibus, tellus ac cursus
-    commodo, tortor mauris.
+  headline: >
+    Custom designed icons communicate the
+    benefits of every adventure directly
+    visible to the traveler
+  subline: Lovely icons
+  copy: ""
   image: gebeco-icons.jpg
   _fieldset: oneimage
 - 

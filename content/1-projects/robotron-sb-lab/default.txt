@@ -6,7 +6,7 @@ Builder:
 
 - 
   headline: Robotron Skateboards
-  subline: Design skateboards the fun way
+  subline: Designing skateboards the fun way
   headlineimage: robotron-robot-mini.jpg
   _fieldset: headline
 - 
@@ -59,7 +59,7 @@ Builder:
 
 ----
 
-Teaserhl: Design skateboards the fun way
+Teaserhl: Designing skateboards the fun way
 
 ----
 

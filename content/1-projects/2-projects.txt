@@ -9,12 +9,12 @@ Builder:
   _fieldset: largeteaser
 - 
   copy: >
-    Hey, nice to meet you. ✌️ I am Chris
-    Preisler currently working as Freelance
-    Designer in Munich. Let’s design your
-    digital future together – simply by
-    creating experiences your users actually
-    like to use.
+    Hey, nice to meet you. ✌️ My name is
+    Chris Preisler, currently working as a
+    Freelance Designer in Munich. Let’s
+    design your digital future together –
+    simply by creating experiences your
+    users actually like to use.
   linklabel: Say Hello
   link: hello@chrispreisler.com
   _fieldset: profileintroduction

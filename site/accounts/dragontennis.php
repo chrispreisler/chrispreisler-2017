@@ -7,8 +7,8 @@ email: hello@chrispreisler.com
 language: en
 role: admin
 history:
+  - about
+  - projects/jack-daniel-s
   - projects/gebeco
-  - projects/nivea-men
   - projects/maoam
-  - error
-  - projects
+  - projects/robotron-sb-lab

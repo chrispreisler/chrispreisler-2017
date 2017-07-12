@@ -6,7 +6,7 @@ Builder:
 
 - 
   headline: NIVEA MEN
-  subline: Der Creme
+  subline: 'Care your masculinity: Der Creme'
   headlineimage: nme-creme-mini.jpg
   _fieldset: headline
 - 

@@ -15,5 +15,9 @@
     "blendid": "^4.1.1",
     "flickity-imagesloaded": "^2.0.0",
     "postcss": "6.0.2"
+  },
+  "scripts": {
+    "start": "yarn run blendid",
+    "build": "yarn run blendid -- build"
   }
 }
