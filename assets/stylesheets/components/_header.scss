@@ -125,7 +125,7 @@
       height: calcRem(5);
       opacity: .2;
       position: absolute;
-      top: calcRem(14);
+      top: calcRem(17);
       right: 0;
       background-color: $red;
       content: '';
@@ -142,13 +142,15 @@
     }
 
     @include mappy-bp(lg) {
-      font-size: calcRem(17);
+      //font-size: calcRem(17);
       color: $black;
       //font-weight: 500;
       transform: none;
       display: inline;
       opacity: 1;
       font-weight: $font-weight-regular;
+
+      @include fluid-size(font-size, 34em, 100em, 1.25rem, 1.5rem);
 
       &:hover {
         &:before {
@@ -158,11 +160,11 @@
       }
 
       &--active {
-        font-weight: 600;
+        font-weight: $font-weight-bold;
 
         &:before {
           width: 100%;
-          top: calcRem(14);
+          top: calcRem(17);
         }
       }
     }

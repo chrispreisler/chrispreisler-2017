@@ -32,6 +32,8 @@ Builder:
   video1: bloxx.mp4
   video2: kracher.mp4
   _fieldset: twovideos
+  image1: bloxx-fallback.jpg
+  image2: kracher-fallback.jpg
 - 
   headline: >
     If taste becomes a colorful experience
@@ -51,6 +53,7 @@ Builder:
   copy: ""
   video: maoam-navigation-2.mp4
   _fieldset: onevideo
+  image: maoam-feeding-fallback.jpg
 - 
   headline: >
     Colorful teaser to use standard

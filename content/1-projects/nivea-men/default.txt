@@ -34,6 +34,7 @@ Builder:
   copy: ""
   video: nivea-men-der-creme.mp4
   _fieldset: onevideo
+  image: nivea-men-website-process-fallback.jpg
 - 
   headline: ""
   subline: ""

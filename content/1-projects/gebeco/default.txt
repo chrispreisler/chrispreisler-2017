@@ -27,6 +27,7 @@ Builder:
   copy: ""
   video: gebeco-homepage-2.mp4
   _fieldset: onevideo
+  image: gebeco-repsonsive-fallback.jpg
 - 
   headline: >
     The beauty and uniqueness of each

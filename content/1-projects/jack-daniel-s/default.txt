@@ -37,8 +37,9 @@ Builder:
   headline: ""
   subline: ""
   copy: ""
-  video: jack-daniels-responsive.mp4
+  video: jack-daniels-responsive-2.mp4
   _fieldset: onevideo
+  image: jack-daniels-repsonsive-fallback.jpg
 - 
   headline: >
     Celebrating all of the touches and
@@ -55,6 +56,7 @@ Builder:
     - jack-daniels-website-clap.jpg
   _fieldset: siximages
   videoitem: jack-daniels-website-fire-bg.mp4
+  videofallback: jack-daniels-website-fire-fallback.jpg
 - 
   headline: Handcrafted with great love for details
   subline: Campaign Logo and Icons

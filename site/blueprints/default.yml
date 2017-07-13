@@ -92,6 +92,7 @@ fields:
       twovideos:
         label: Two Videos
         entry: >
+          <img src="{{_fileUrl}}{{image1}}" height=120px/><img src="{{_fileUrl}}{{image2}}" height=120px/><br><br>
           <b>{{headline}}</b><br>
           {{subline}}<br>
           {{copy}}<br>
@@ -109,13 +110,20 @@ fields:
             label: First Video
             type: select
             options: videos
+          image1:
+            label: Fallback Image 1
+            type: image
           video2:
             label: Second Video
             type: select
             options: videos
+          image2:
+            label: Fallback Image 2
+            type: image
       onevideo:
         label: One Video
         entry: >
+          <img src="{{_fileUrl}}{{image}}" height=120px/><br>
           <b>{{headline}}</b><br>
           {{subline}}<br>
           {{copy}}<br>
@@ -133,6 +141,9 @@ fields:
             label: Video
             type: select
             options: videos
+          image:
+            label: Fallback Image
+            type: image
       fourimages:
         label: Four Images
         entry: >
@@ -175,6 +186,9 @@ fields:
             label: Video
             type: select
             options: videos
+          videofallback:
+            label: Fallback Image
+            type: image
       multipleimages:
         label: Multiple Images
         entry: >
