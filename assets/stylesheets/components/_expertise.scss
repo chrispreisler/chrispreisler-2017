@@ -6,6 +6,10 @@
 
   &__ol {
     text-align: center;
+
+    @include mappy-bp(md) {
+      margin-left: calcRem(35);
+    }
   }
 
   &__list {

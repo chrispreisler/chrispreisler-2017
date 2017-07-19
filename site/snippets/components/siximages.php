@@ -29,7 +29,7 @@
     <div class="siximages__column siximages__column--full">
   <?php
       if(!$data->videoitem()->empty()):
-        includevideo($page->video($data->videoitem()), 1063, 610, 'siximages__video');
+        includevideo($page->video($data->videoitem()), 1063, 610, 'siximages__video', $data->videofallback()->toFile());
       else:
         retinaimages($image, $sizesfull, 'siximages__image');
       endif;

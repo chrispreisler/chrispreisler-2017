@@ -17,7 +17,7 @@ Builder:
   headlineimage: maoam-mouth-mini.jpg
   subline: The story
   copy: 'Maoam bonbons are unbelievably  delicious. If you eat one Maoam bonbon, you always want to eat at least a second. We satisfy the enthusiasm of the fans for the tasteful fun and let them experience the special chewing experience on the new website. Say hello to the Maoam Mouth. Feed it with the Maoam products and experience the fun.'
-  linklabel: Throw in your favourite
+  linklabel: Visit Website
   link: http://maoam.com/uk/
   client: Website Relaunch
   role: 'Ideation & Design'
@@ -25,6 +25,7 @@ Builder:
   _fieldset: projectintroduction
   type: Website Relaunch
   imagemobile: maoam-teaser.jpg
+  agency: Yours Truly
 - 
   headline: ""
   subline: ""
@@ -34,6 +35,8 @@ Builder:
   _fieldset: twovideos
   image1: bloxx-fallback.jpg
   image2: kracher-fallback.jpg
+  videofallback1: bloxx-fallback.jpg
+  videofallback2: kracher-fallback.jpg
 - 
   headline: >
     If taste becomes a colorful experience
@@ -54,6 +57,7 @@ Builder:
   video: maoam-navigation-2.mp4
   _fieldset: onevideo
   image: maoam-feeding-fallback.jpg
+  videofallback: maoam-feeding-fallback.jpg
 - 
   headline: >
     Colorful teaser to use standard
@@ -83,3 +87,7 @@ Teasersl: Maoam
 ----
 
 Teaservideo: maoam-largeteaser.mp4
+
+----
+
+Teaservideofallback: maoam-large-teaser-fallback.jpg

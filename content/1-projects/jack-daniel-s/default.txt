@@ -33,6 +33,7 @@ Builder:
   role: 'Ideation & Design'
   year: "2016"
   _fieldset: projectintroduction
+  agency: Yours Truly
 - 
   headline: ""
   subline: ""
@@ -40,6 +41,7 @@ Builder:
   video: jack-daniels-responsive-2.mp4
   _fieldset: onevideo
   image: jack-daniels-repsonsive-fallback.jpg
+  videofallback: jack-daniels-repsonsive-fallback.jpg
 - 
   headline: >
     Celebrating all of the touches and
@@ -84,3 +86,7 @@ Teasersl: Jack Daniel’s
 ----
 
 Teaservideo: 
+
+----
+
+Teaservideofallback: 

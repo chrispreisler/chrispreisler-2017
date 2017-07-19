@@ -1,0 +1,57 @@
+Title: Wempe
+
+----
+
+Builder: 
+
+- 
+  headline: Wempe
+  subline: Bring the stories behind a watch to life
+  headlineimage: ""
+  _fieldset: headline
+- 
+  image: wempe-masthead.jpg
+  imagemobile: wempe-teaser.jpg
+  headline: ""
+  subline: The story
+  copy: >
+    Nullam id dolor id nibh ultricies
+    vehicula ut id elit. Duis mollis, est
+    non commodo luctus, nisi erat porttitor
+    ligula, eget lacinia odio sem nec elit.
+    Curabitur blandit tempus porttitor.
+    Etiam porta sem malesuada magna mollis
+    euismod. Nullam id dolor id nibh
+    ultricies vehicula ut id elit. Duis
+    mollis, est non commodo luctus, nisi
+    erat porttitor ligula, eget lacinia odio
+    sem nec elit. Curabitur blandit tempus
+    porttitor. Etiam porta sem malesuada
+    magna mollis euismod.
+  linklabel: ""
+  link: ""
+  type: Website Concept
+  role: Design
+  year: "2016"
+  agency: Yours Truly
+  _fieldset: projectintroduction
+
+----
+
+Teaserhl: Bring the stories behind a watch to life
+
+----
+
+Teasersl: Wempe
+
+----
+
+Teaserimage: wempe-teaser.jpg
+
+----
+
+Teaservideo: 
+
+----
+
+Teaservideofallback: 

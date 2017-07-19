@@ -29,15 +29,20 @@
       text-align: center;
 
       @include mappy-bp(md) {
-        max-width: 70%;
+        max-width: 100%;
+        text-align: left;
+        columns: 2;
+        column-gap: 10vw;
       }
 
       @include mappy-bp(lg) {
-        max-width: 60%;
+        max-width: 80%;
+        column-gap: 8vw;
       }
 
       @include mappy-bp(xl) {
-        max-width: 50%;
+        max-width: 65%;
+        column-gap: 6vw;
       }
 
     }

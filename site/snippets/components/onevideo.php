@@ -11,6 +11,6 @@
     endif;
   ?>
   <div class="onevideo__item">
-    <?php includevideo($page->video($data->video()), 1328, 680, 'onevideo__video'); ?>
+    <?php includevideo($page->video($data->video()), 1328, 680, 'onevideo__video', $data->videofallback()->toFile()); ?>
   </div>
 </section>

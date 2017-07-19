@@ -48,8 +48,16 @@ export default class MobileMenu {
     window.console.log('')
     window.console.log('### Init Navigation ###')
 
-    if (window.innerWidth <= 992) {
-      window.console.log('### Small Window ###')
+    let windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
+    const isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+               navigator.userAgent && !navigator.userAgent.match('CriOS');
+
+    if (isSafari) {
+      windowWidth -= 16
+    }
+
+    if (windowWidth < 992) {
+      window.console.log('### Small Window: ' + windowWidth + ' ###')
       this.circleSize = Math.sqrt(window.innerHeight * window.innerHeight + window.innerWidth * window.innerWidth) * 2
 
       if (this.isOpen === false) {
@@ -62,7 +70,7 @@ export default class MobileMenu {
           { width: this.circleSize, height: this.circleSize })
       }
     } else {
-      window.console.log('### Large Window ###')
+      window.console.log('### Large Window: ' + windowWidth + '###')
       if (this.isOpen === true) {
         TweenLite.set(document.querySelector('.nav__circle-bg'),
           { width: 0, height: 0 })

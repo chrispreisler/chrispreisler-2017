@@ -1,13 +1,10 @@
-//import Flickity from 'flickity'
 import TweenLite from 'gsap/TweenLite'
 
-export default class Gallery {
+class Gallery {
   constructor () {
     this.targetLeft = '.gallery__controls--left'
     this.targetRight = '.gallery__controls--right'
     this.indicator = '.gallery__indicator'
-
-    this.init()
   }
 
   init () {
@@ -66,3 +63,5 @@ export default class Gallery {
     this.flkty.next(true)
   }
 }
+
+export let gallery = new Gallery()

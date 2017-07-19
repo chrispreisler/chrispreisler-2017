@@ -110,14 +110,14 @@ fields:
             label: First Video
             type: select
             options: videos
-          image1:
+          videofallback1:
             label: Fallback Image 1
             type: image
           video2:
             label: Second Video
             type: select
             options: videos
-          image2:
+          videofallback2:
             label: Fallback Image 2
             type: image
       onevideo:
@@ -141,7 +141,7 @@ fields:
             label: Video
             type: select
             options: videos
-          image:
+          videofallback:
             label: Fallback Image
             type: image
       fourimages:
@@ -241,6 +241,7 @@ fields:
           <b>Year:</b> {{year}}<br>
           <b>Type:</b> {{type}}<br>
           <b>Role:</b> {{role}}<br>
+          <b>Agency:</b> {{agency}}<br>
           <a target="_blank" href="{{link}}">{{linklabel}}</a>
         fields:
           image:
@@ -271,7 +272,10 @@ fields:
             label: Role
             type: text
           year:
-            label: Yeay
+            label: Year
+            type: text
+          agency:
+            label: Agency
             type: text
       profileintroduction:
         label: Profile Introduction
@@ -337,3 +341,6 @@ fields:
     label: Teaser Video
     type: select
     options: videos
+  teaservideofallback:
+    label: Teaser Video Fallback Image
+    type: image

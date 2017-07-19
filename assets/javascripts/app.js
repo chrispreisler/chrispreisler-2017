@@ -3,7 +3,7 @@ import TimelineLite from 'gsap/TimelineLite'
 import CSSPlugin from 'gsap/CSSPlugin'
 import ScrollToPlugin from 'gsap/ScrollToPlugin'
 import Barba from 'barba.js'
-import Gallery from './components/gallery'
+import { gallery } from './components/gallery'
 import MobileMenu from './components/mobilemenu'
 import Picturefill from 'picturefill'
 import Intrinsic from './utils/pf.intrinsic.min'
@@ -21,6 +21,7 @@ import { watcherProject } from './watcher/watcherproject'
 import { watcherTeaserList } from './watcher/watcherteaserlist'
 import YtVideo from './components/ytvideo'
 import Blazy from 'blazy'
+import Largeteaser from './components/largeteaser'
 
 document.createElement('picture')
 
@@ -44,12 +45,12 @@ if (document.querySelector('.content').getAttribute('data-namespace') === 'about
   watcherAbout(document.querySelector('.content'), 1)
   watcherAboutImage(document.querySelector('.fullimage'), 1)
   window.console.log('### Init Gallery ###')
-  const gallery = new Gallery()
+  gallery.init()
 }
 
 var mobileMenu = new MobileMenu()
 var bLazy = new Blazy({
-  offset: 300
+  offset: 750
 })
 
 if (document.querySelector('.video__playbtn')) {
@@ -57,6 +58,10 @@ if (document.querySelector('.video__playbtn')) {
   window.onYouTubeIframeAPIReady = function () {
     ytVideo.createPlayer()
   }
+}
+
+if(window.innerWidth >= 992 && document.querySelector('.largeteaser')) {
+  var largeteaser = new Largeteaser()
 }
 
 Barba.Pjax.start()
@@ -82,7 +87,7 @@ Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, containe
   if (container.querySelector('.gallery')) {
     window.console.log('')
     window.console.log('### Init Gallery ###')
-    const gallery = new Gallery()
+    gallery.init()
   }
 
   if (document.querySelector('.video__playbtn')) {
@@ -93,11 +98,15 @@ Barba.Dispatcher.on('newPageReady', function (currentStatus, oldStatus, containe
   }
 
   var bLazy = new Blazy({
-    offset: 300
+    offset: 750
   })
 
   if (window.innerWidth <= 992) {
     mobileMenu.initTimeline()
+  }
+
+  if(window.innerWidth > 992 && container.querySelector('.largeteaser')) {
+    var largeteaser = new Largeteaser()
   }
 
   let menulinks = document.querySelectorAll('.nav__link')

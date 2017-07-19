@@ -1,15 +1,26 @@
 .gallery {
   @include fluid-size(margin-top, 34em, 90em, $compDistanceMobile, $compDistance);
 
-  &__ol {
+  &__hl {
+    margin: 0 auto;
+    margin-top: calcRem(30);
     text-align: center;
+
+    @include mappy-bp(md) {
+      max-width: 50%;
+    }
+
+    @include mappy-bp(xl) {
+      max-width: 45%;
+    }
   }
 
-  &__hl {
-    font-weight: $font-weight-regular;
+  &__ol {
     text-align: center;
-    padding: 0 $contentPadding;
-    margin-top: calcRem(30);
+
+    @include mappy-bp(md) {      
+      margin-left: calcRem(35);
+    }
   }
 
   &__container {

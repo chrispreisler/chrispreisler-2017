@@ -1,3 +1,4 @@
+
 .header {
   display: flex;
   margin: 0 auto;
@@ -125,7 +126,7 @@
       height: calcRem(5);
       opacity: .2;
       position: absolute;
-      top: calcRem(17);
+      top: calcRem(15);
       right: 0;
       background-color: $red;
       content: '';
@@ -142,15 +143,12 @@
     }
 
     @include mappy-bp(lg) {
-      //font-size: calcRem(17);
       color: $black;
-      //font-weight: 500;
       transform: none;
-      display: inline;
       opacity: 1;
       font-weight: $font-weight-regular;
 
-      @include fluid-size(font-size, 34em, 100em, 1.25rem, 1.5rem);
+      @include fluid-size(font-size, 34em, 100em, 1.2rem, 1.5rem);
 
       &:hover {
         &:before {
@@ -164,7 +162,7 @@
 
         &:before {
           width: 100%;
-          top: calcRem(17);
+          top: calcRem(15);
         }
       }
     }

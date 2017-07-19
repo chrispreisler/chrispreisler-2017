@@ -6,9 +6,9 @@
   @include fluid-size(('margin-top', 'padding-top', 'padding-bottom'), 34em, 90em, $compDistanceMobile, $compDistance);
 
   &__hl {
-    text-align: center;
     margin: 0 auto;
     margin-top: calcRem(30);
+    text-align: center;
 
     @include mappy-bp(md) {
       max-width: 50%;
@@ -21,6 +21,10 @@
 
   &__ol {
     text-align: center;
+
+    @include mappy-bp(md) {  
+      margin-left: calcRem(35);
+    }
   }
 
   &__list {

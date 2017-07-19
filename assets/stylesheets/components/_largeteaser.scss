@@ -80,14 +80,6 @@
 
   &__video-link {
     position: relative;
-
-    &:hover {
-      video {
-        @include mappy-bp(lg) {
-          transform: translate(-50%, 0) translateZ(0) scale(1.05) rotate(0.1deg);
-        }
-      }
-    }
   }
 
   &__video-wrapper {
@@ -116,7 +108,6 @@
     width: 100%;
     height: auto;
 
-
     @include mappy-bp(md) {
       position: absolute;
       left: 50%;
@@ -133,6 +124,12 @@
       transform: translate(-50%, 0) translateZ(0) scale(1) rotate(0deg);
       height: 100vh;
       top: 0;
+    }
+
+    &--isAnimating {
+      @include mappy-bp(lg) {
+        transform: translate(-50%, 0) translateZ(0) scale(1.15) rotate(0.1deg);
+      }
     }
   }
 
@@ -181,10 +178,10 @@
   }
 
   &__hl {
-    margin-top: calcRem(20);
+    padding-top: calcRem(20);
 
     @include mappy-bp(md) {
-      margin-top: calcRem(30);
+      padding-top: calcRem(30);
     }
   }
 
@@ -196,6 +193,19 @@
 
     @include mappy-bp(sm) {
       display: inline-block;
+    }
+
+    &--isAnimating {
+      @include mappy-bp(lg) {
+        &:before {
+          width: 0;
+          right: 0;
+        }
+
+        &:after {
+          transform: translate(165%, -50%);
+        }
+      }
     }
   }
 }

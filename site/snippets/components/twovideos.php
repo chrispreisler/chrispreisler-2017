@@ -4,10 +4,10 @@
 
   <div class="twovideos__list">
     <div class="twovideos__item">
-      <?php includevideo($page->video($data->video1()), 700, 700, 'twovideos__video'); ?>
+      <?php includevideo($page->video($data->video1()), 700, 700, 'twovideos__video', $data->videofallback1()->toFile()); ?>
     </div>
     <div class="twovideos__item">
-      <?php includevideo($page->video($data->video2()), 700, 700, 'twovideos__video'); ?>
+      <?php includevideo($page->video($data->video2()), 700, 700, 'twovideos__video', $data->videofallback2()->toFile()); ?>
     </div>
   </div>
 </section>

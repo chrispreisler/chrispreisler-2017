@@ -21,6 +21,7 @@ Builder:
   role: 'Concept & Design'
   year: "2016"
   _fieldset: projectintroduction
+  agency: Yours Truly
 - 
   headline: ""
   subline: ""
@@ -28,6 +29,7 @@ Builder:
   video: gebeco-homepage-2.mp4
   _fieldset: onevideo
   image: gebeco-repsonsive-fallback.jpg
+  videofallback: gebeco-repsonsive-fallback.jpg
 - 
   headline: >
     The beauty and uniqueness of each
@@ -87,3 +89,7 @@ Teaserimage: gebeco-teaser.jpg
 ----
 
 Teaservideo: 
+
+----
+
+Teaservideofallback: 
