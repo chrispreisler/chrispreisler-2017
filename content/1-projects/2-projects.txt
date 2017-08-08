@@ -23,7 +23,7 @@ Builder:
   subline: Designed with happiness
   teaserlist: >
     gebeco, jack-daniel-s, nivea-men,
-    prokon, robotron-sb-lab, wempe
+    prokon, robotron-sb-lab
   teaserlist2: ""
   _fieldset: teaser
 

@@ -35,6 +35,18 @@ Builder:
   year: "2016"
   agency: Yours Truly
   _fieldset: projectintroduction
+- 
+  headline: ""
+  subline: ""
+  copy: ""
+  image: wempe-responsive.jpg
+  _fieldset: oneimage
+- 
+  headline: Lorem ipsum dolor amet sitis sunt ditur
+  subline: WEMPE Stories
+  copy: ""
+  image: wempe-stories.jpg
+  _fieldset: oneimage
 
 ----
 
