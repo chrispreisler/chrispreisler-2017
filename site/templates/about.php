@@ -30,6 +30,21 @@
         </div>
       </section>
 
+      <!-- <section class="facts">
+        <h3 class="facts__title"><?php //echo $page->factstitle()->html(); ?></h3>
+        <div class="facts__list">
+      <?php //foreach($page->facts()->toStructure() as $fact): ?>
+        <div class="facts__item">
+          <div class="facts__hl-sl">
+            <h2 class="facts__hl"><?php //echo $fact->headline()->html(); ?></h2>
+            <h2 class="facts__sl"><?php //echo $fact->subline()->html(); ?></h2>
+          </div>
+          <p class="facts__copy"><?php //echo $fact->copy()->html(); ?></p>
+        </div>
+      <?php //endforeach ?>
+        </div>
+      </section> -->
+
       <section class="brands">
         <h3 class="brands__ol"><?php echo $page->brandsubline()->html(); ?></h3>
         <h2 class="brands__hl"><?php echo $page->brandheadline()->html(); ?></h2>
